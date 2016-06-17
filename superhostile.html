@@ -13,25 +13,48 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
+	<!-- Website Header -->
+		<style>
+		.db-layout-trans {
+		  background: url('../assets/demos/transparent.jpg') center / cover;
+		}
+		.db-layout-trans .mdl-layout__header,
+		.db-layout-trans .mdl-layout__drawer-button {
+		  color: white;
+		}
+		</style>
+
+		<div class="db-layout-trans mdl-layout mdl-js-layout">
+		  <header class="mdl-layout__header mdl-layout__header--transparent">
+			<div class="mdl-layout__header-row">
+			  <span class="mdl-layout-title">DiamondbackPlays</span>
+			  <div class="mdl-layout-spacer"></div>
+			  <nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="https://www.youtube.com/channel/UCu_FKrm63rKxRdzmHckrEZg">Youtube Page</a>
+				<a class="mdl-navigation__link" href="https://twitter.com/DiamondbackYT">Twitter</a>
+				<a class="mdl-navigation__link" href="https://www.twitch.tv/diamondbackplays">Twitch</a>
+				<a class="mdl-navigation__link" href="https://www.instagram.com/diamondbackplays/">Instagram</a>
+			  </nav>
+			</div>
+		  </header>
+		  <div class="mdl-layout__drawer">
+			<span class="mdl-layout-title">Pages</span>
+			<nav class="mdl-navigation">
+			  <a class="mdl-navigation__link" href="index.html">Home</a>
+			  <a class="mdl-navigation__link" href="about.html">About</a>
+			  <a class="mdl-navigation__link" href="othervids.html">Videos</a>
+			  <a class="mdl-navigation__link" href="loto.html">Legend of the Overlord</a>
+			</nav>
+		  </div>
+		  <main class="mdl-layout__content">
+		  </main>
+		</div>
     <section class="page-header">
+	
       <h1 class="project-name">DiamondbackPlays Website</h1>
       <h2 class="project-tagline">The official website of DIAMONDBACK</h2>
-    <button id="pagemenu"
-            class="mdl-button mdl-js-button mdl-button--icon">
-      <i class="material-icons">more_vert</i>
-    </button>
-    
-    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="pagemenu">
-      <li class="mdl-menu__item" onclick="location.href='../index.html';">Home</li>
-      <li class="mdl-menu__item" onclick="location.href='../about.html';">About</li>
-      <li class="mdl-menu__item" onclick="location.href='../series/loto.html';">LOTO</li>
-	  <li class="mdl-menu__item" onclick="location.href='../series/othervids.html';">Videos</li>
-    </ul>
-    <!-- menu tooltip -->
-    <div class="mdl-tooltip mdl-tooltip--large" for="pagemenu">Page Menu</div>
-    
-
     </section>
+	<!-- End of header -->
 
     <section class="main-content">
       <h2>Super Hostile #14: Waking up</h2>
