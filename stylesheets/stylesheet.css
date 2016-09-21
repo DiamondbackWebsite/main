@@ -9,6 +9,7 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+
 a {
   color: #1e6bb8;
   text-decoration: none; }
@@ -57,7 +58,9 @@ a {
   color: #fff;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #009688, #CDDC39); }
+  background: url(../assets/Background.png); 
+  background-size: 100%;
+  }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -69,6 +72,22 @@ a {
 
 @media screen and (max-width: 42em) {
   .page-header {
+    padding: 2rem 1rem; } }
+    
+.page-overlord {
+  text-align: center;
+  background-image: url("assets/Background.png"); }
+
+@media screen and (min-width: 64em) {
+  .page-overlord {
+    padding: 5rem 6rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-overlord {
+    padding: 3rem 4rem; } }
+
+@media screen and (max-width: 42em) {
+  .page-overlord {
     padding: 2rem 1rem; } }
 
 .project-name {
